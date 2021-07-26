@@ -95,10 +95,4 @@ const icons = [
     type: 'user',
     family: 'fas',
   },
-  {
-    name: 'facebook',
-    prefix: 'fa-',
-    type: 'company',
-    family: 'fab',
-  },
 ];

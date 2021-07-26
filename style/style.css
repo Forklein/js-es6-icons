@@ -5,3 +5,15 @@ body{
 main{
     height: calc(100vh - 159px);
 }
+
+.animal{
+    color: blue;
+}
+
+.vegetable{
+    color: yellow;
+}
+
+.user{
+    color: purple;
+}
