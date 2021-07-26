@@ -1,0 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
+main{
+    height: calc(100vh - 159px);
+}

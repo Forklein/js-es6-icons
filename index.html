@@ -15,8 +15,29 @@
 </head>
 
 <body>
-
-
+    <header>
+        <nav class="navbar navbar-light bg-white">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 fs-1 text-primary">FontIcons</span>
+            </div>
+        </nav>
+        <div class="container-fluid bg-info p-3">
+            <div class="row text-white">
+                <div class="col- d-flex justify-content-center align-items-center">
+                    <h3>Filtra per Tipo:</h3>
+                    &ensp;
+                    <select id="filter" style="width: 80px;">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="bg-secondary p-3">
+        <div class="container">
+            <div id="cards" class="row g-3"></div>
+        </div>
+    </main>
 
     <script src="./js/data.js"></script>
     <script src="./js/script.js"></script>
