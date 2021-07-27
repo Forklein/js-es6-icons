@@ -51,14 +51,14 @@ filterDisplay.addEventListener('change', () => {
 
 
 const displaySearch = document.getElementById('search');
-displaySearch.addEventListener('change', () => {
+displaySearch.addEventListener('input', () => {
     let elementInSearch = '';
     icons.forEach((icon) => {
         console.log(icon.name);
-        if (displaySearch.value.includes(icon.name)) {
+        if (icon.name.includes(displaySearch.value)) {
             console.log('FILTRATA', icon.name)
             elementInSearch += `
-            <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="col-md-6 m-3 mx-auto d-flex flex-column align-items-center justify-content-center">
                 <div class="border rounded-2 bg-white shadow w-100 h-100 p-3">
                    <i class="${icon.family} fa-${icon.name} fa-3x ${icon.type}"></i>
                    <p class="h4">${icon.name.toUpperCase()}</p>
